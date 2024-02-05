@@ -1,7 +1,7 @@
 function Footer () {
     return (
         <>
-        <a href="https://github.com/BarbaraLan/mini-project-2.git"> link to GitHub</a>
+        <a class="footer" href="https://github.com/BarbaraLan/mini-project-2.git"> link to GitHub</a>
         </>
     )
 }

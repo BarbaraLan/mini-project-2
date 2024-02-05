@@ -1,8 +1,8 @@
 function NavBar () {
     return (
-        <nav>
-        <h2> another title</h2>
-        <img src="./src/assets/coveringImg.webp" alt="" />
+        <nav id="navbar">
+        <h2> REACT RECIPES FOR DUMMIES</h2>
+        <img id="logo" src="./src/assets/cleaver.jpg" alt="" />
 
         </nav>
     )
