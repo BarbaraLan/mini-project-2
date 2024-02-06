@@ -13,6 +13,7 @@ function RecipesCard(props) {
             <p>{recipe.image}</p>
             <p>{recipe.servings}</p>
             {caloriesCount}
+            <button class="btn" onClick={() => props.deleteCard(recipe.id) } > X </button> 
         </li>
     )
 }
