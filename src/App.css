@@ -3,6 +3,8 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  background-color:rgb(244, 240, 235)
+  
 
 }
 
@@ -25,19 +27,19 @@ display: flex;
   position:absolute;
   top: 0%;
   width: 100%;
-  background-color:red;
+  background-color: rgb(66, 9, 116)
   }
 
 .footer {
   padding: 0px 20px;
   width: 100%;
-  background-color:red;
+  background-color:rgb(66, 9, 116);
   color: white;
   display: flex;
   flex-direction: row-reverse;
   position: static;
-  right: 0%;
   bottom: 0;
+  left: 0;
 }
 
 /*.logo {
