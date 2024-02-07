@@ -1,19 +1,27 @@
 import './App.css'
-import HomePage from './pages/HomePage'
+import { Routes, Route, Router } from 'react-router-dom'
+import DashboardPage from './Pages/DashboardPage'
+import AboutPage from './Pages/AboutPage'
+import NotFoundPage from './Pages/NotFoundPage'
+import ItemsDetailsPage from './Pages/ItemsDetailsPage'
 import NavBar from './components/NavBar'
+import Sidebar from './components/Sidebar'
 import Footer from './components/Footer'
-import RecipesList from './components/RecipesList'
 
 
 function App() {
 
   return (
     <>
-      <HomePage />
       <NavBar />
+      <Sidebar/>
+      <Routes>
+        <Route path='/' element={<DashboardPage userName='DashboardPage' />} />
+        <Route path='/about' element={<AboutPage userName='AboutPage' />} />
+        <Route path='/itemsDetailsPage/:recipeId' element={<ItemsDetailsPage userName='RecipesList' />} />
+        <Route path='*' element={<NotFoundPage userName='NotFoundPage' />} />
+      </Routes>
       <Footer />
-      <RecipesList />
-
     </>
   )
 }
