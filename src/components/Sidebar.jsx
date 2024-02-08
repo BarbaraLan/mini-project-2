@@ -1,8 +1,13 @@
+import "./Sidebar.css" 
+
 function Sidebar () {
     return (
-        <>
-        <h5> This is the sidebar</h5>
-        </>
+        
+        <div id="sideBar"> 
+        <h5> About </h5>
+        <h5> Home </h5>
+        </div>
+        
     )
 }
 export default Sidebar;
