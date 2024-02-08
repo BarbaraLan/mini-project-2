@@ -17,7 +17,6 @@ return (
     <p>{recipe.image}</p>
     <p>{recipe.servings}</p>
     <p>{caloriesCount}</p>
-    <button className="btn" onClick={() => props.deleteCard(recipe.id) } > X </button> 
     </li>
 )
 }

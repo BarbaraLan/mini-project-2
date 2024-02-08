@@ -27,13 +27,13 @@ display: flex;
   position:absolute;
   top: 0%;
   width: 100%;
-  background-color: rgb(66, 9, 116)
+  background-color: rgb(161, 159, 162);
   }
 
 .footer {
   padding: 0px 20px;
   width: 100%;
-  background-color:rgb(66, 9, 116);
+  background-color:rgb(161, 159, 162);
   color: white;
   display: flex;
   flex-direction: row-reverse;
@@ -42,14 +42,14 @@ display: flex;
   left: 0;
 }
 
-/*.logo {
+logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
 
-/*
+
 
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
@@ -80,4 +80,3 @@ display: flex;
 .read-the-docs {
   color: #888;
 }
-/*

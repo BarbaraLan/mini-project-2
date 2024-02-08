@@ -9,12 +9,7 @@ padding: 40px ;
 justify-content: space-between;
 border: 1px solid pink;
 text-align: center;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
--webkit-box-shadow: 10px 10px 5px 0px rgba(56,0,56,1);
--moz-box-shadow: 10px 10px 5px 0px rgba(56,0,56,1);
-box-shadow: 10px 10px 5px 0px rgba(56,0,56,1);
-
-
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .recipes-container {
@@ -26,8 +21,10 @@ box-shadow: 10px 10px 5px 0px rgba(56,0,56,1);
     justify-content: space-between;
     flex-direction: column;
     border: 1px solid red;
-    
+}
 
+h4 {
+    background-color: rgb(238, 230, 196);
 }
 
 .btn {
