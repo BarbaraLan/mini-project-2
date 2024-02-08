@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import './Recipescard.css'
 
 function RecipesCard(props) {
     const recipe = props.recipe;

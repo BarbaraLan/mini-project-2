@@ -1,3 +1,4 @@
+import './form.css'
 import { useState } from "react";
 
 function Form(props) {
@@ -19,8 +20,8 @@ function Form(props) {
     };
     return (
         <>
-            <form onSubmit={handleSubmit}>
-                <span>Add a Recipe</span>
+            <form class="form" onSubmit={handleSubmit}>
+                <span>Add a Recipe - </span>
                 <div>
 
                     <label>
