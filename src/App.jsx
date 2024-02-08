@@ -10,10 +10,16 @@ import Footer from './components/Footer'
 
 
 function App() {
+  
+
 
   return (
     <>
       <NavBar />
+
+      
+
+
       <Sidebar/>
       <Routes>
         <Route path='/' element={<DashboardPage userName='DashboardPage' />} />
