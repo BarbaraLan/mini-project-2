@@ -1,14 +1,12 @@
-import RecipesJson from '../recipes.json'
+
 import { useState } from 'react';
 import RecipesCard from './RecipesCard.jsx'
 import './RecipesList.css'
 
-function RecipesList() {
-
-    const [recipes, setRecipes] = useState(RecipesJson)
+function RecipesList(props) {
 
     function deleteCard(recipeId) {
-        const newRecipesArray = recipes.filter((recipe) => {
+        const newRecipesArray = props.recipes.filter((recipe) => {
             return recipeId !== recipe.id
         });
         setRecipes(newRecipesArray);
@@ -21,8 +19,8 @@ function RecipesList() {
             <ul className='recipes-container'>
 
                 {
-                    recipes.map((recipe) => {
-                        return <RecipesCard key={recipe.id} recipe={recipe} deleteCard ={deleteCard} />
+                    props.recipes.map((recipe) => {
+                        return <RecipesCard  key={recipe.id} recipe={recipe} deleteCard ={deleteCard} />
                     })
                 }
             </ul>
