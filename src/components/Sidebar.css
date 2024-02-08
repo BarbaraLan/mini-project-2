@@ -1,0 +1,28 @@
+  
+    #sideBar {
+      box-sizing: border-box;
+      height: 447px;
+      width: 130px;
+      background-color: rgb(161, 159, 162);
+      color: white;
+      display: flex;
+      flex-direction: row-reverse;
+      position: fixed;
+      top: 0;
+      left: 0;
+      align-items: center;
+      /* Rotate the text by 45 degrees */
+  
+  }
+  
+  h5 {
+      padding: 40px 40px;
+      box-sizing: border-box;
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 30px;
+       /* Rotate the text by 45 degrees */
+   
+  }
+  
+  
