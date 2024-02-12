@@ -10,7 +10,7 @@ function DashboardPage() {
     return (
         <>
             < h1 > REACT RECIPES FOR DUMMIES </h1 >
-            <img className="image1" src="./src/assets/coveringImg.webp" alt="" />
+            <img className="image1" src="./src/assets/image.png" alt="" />
 
             <RecipesList recipes={recipes} />
             <Form recipes={recipes} setRecipes={setRecipes}/>
