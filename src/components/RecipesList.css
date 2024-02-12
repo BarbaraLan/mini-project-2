@@ -1,41 +1,70 @@
+/* Common styles for recipe card and container */
 .recipe-card {
     display: flex;
-background-color: rgb(238, 230, 196);
-color: rgb(90, 90, 90);
-flex-direction: column;
-width: 80%;
-border-radius: 70px;
-padding: 40px ;
-justify-content: space-between;
-border: 2px solid purple;
-text-align: center;
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-wrap: wrap;
+    width: 180px;
+    height: auto; /* Adjusted for variable content */
+    justify-content: space-between;
+    padding: 20px; /* Reduced padding for better appearance */
+    border: 2px solid purple;
+    border-radius: 10px; /* Reduced border radius */
+    background-color: rgb(238, 230, 196);
+    color: rgb(90, 90, 90);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .recipes-container {
     display: flex;
-    width: 750px;
-    height: 400px;
+    flex-wrap: wrap;
+    width: 900px; /* Adjusted to fill available space */
+    max-width: 1200px; /* Added max-width for better responsiveness */
+    height: 300px; /* Adjusted for variable content */
     list-style: none;
-    padding-left: 140px;
+    padding: 20px; /* Adjusted padding for better appearance */
+    margin: 0 auto; /* Center the container horizontally */
     justify-content: space-between;
-    flex-direction: column;
     border: 1px solid purple;
     overflow-y: auto;
+}
+
+/* Additional styling for headings */
+.recipe-card h3 {
+    /* Add specific styles if needed */
     
 }
 
-.h3 {
-   
-}
-
-h4 {
+.recipe-card h4 {
     background-color: rgb(238, 230, 196);
 }
 
+
+
 .btn {
     width: 40px;
+    height: 40px;
     display: flex;
-    border: 3px solid purple;
-    
+    justify-content: center; /* Center button content */
+    align-items: center; /* Center button content */
+    border: 1px solid purple;
+    border-radius: 50%; /* Rounded button */
+    background-color: transparent; /* Transparent background */
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+
+/* Optional: Add hover effect on button */
+.btn:hover {
+    background-color: purple;
+    color: rgb(238, 230, 196);
+}
+
+/* Set the default color for links */
+.recipe-card a {
+    color: rgb(83, 4, 114);
+    text-decoration: none; /* Remove underlines */
+}
+
+/* Change the color of visited links to cream */
+.recipe-card a:visited {
+    color: cream;
 }

@@ -1,14 +1,14 @@
 #sideBar {
     z-index: 999; /* Adjust the z-index value to be lower than the navbar */
     box-sizing: border-box;
-    height: 447px;
+    height: 600px;
     width: 130px;
     background-color: rgb(40, 11, 40);
-    text-align: end;
+    text-align:end;
     
     display: flex;
-    flex-direction: row-reverse;
     position: fixed;
+    flex-direction: column;
     top: 0;
     left: 0;
     align-items: center; 
@@ -25,5 +25,9 @@ h5 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     
- 
+}
+
+h4 {
+
+   font-size: 35px;
 }
