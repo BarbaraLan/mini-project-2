@@ -5,7 +5,6 @@ import Form from "../components/Form"
 function DashboardPage(props) {
     return (
         <>
-            < h1 > REACT RECIPES FOR DUMMIES </h1 >
             <img className="image1" src="./src/assets/image.png" alt="" />
 
             <RecipesList  recipes={props.recipes} setRecipes={props.setRecipes} />

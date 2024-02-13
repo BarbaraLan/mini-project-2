@@ -1,0 +1,16 @@
+#navbar {
+    z-index: 1000;
+    height: 60px;
+    display: flex;
+  }
+
+h1 {
+    width: 100%;
+    font-size: 40px;
+    text-wrap: wrap;
+    text-align: center;
+    color: rgb(74, 14, 14);
+    padding: 10px;
+    background-color:  rgb(238, 230, 196);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

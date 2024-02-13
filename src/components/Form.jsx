@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './Forms.css'
 
 function Form(props) {
     const [recipeName, setRecipeName] = useState("");
@@ -19,32 +20,32 @@ function Form(props) {
     };
     return (
         <>
-            <form onSubmit={handleSubmit}>
+            <form className= 'addArea' onSubmit={handleSubmit}>
                 <span>Add a Recipe</span>
                 <div>
 
-                    <label>
-                        set Recipe Name
+                    <label >
+                        Recipe Name
                         <input value={recipeName} onChange={(event) => { setRecipeName(event.target.value) }} id="setRecipeName" type="text" />
                     </label>
 
                     <label>
-                        set Recipe Calories
+                        Recipe Calories
                         <input value={recipeCalories} onChange={(event) => { setRecipeCalories(event.target.value) }} id="setRecipeCalories" type="number" />
                     </label>
 
                     <label>
-                        set Recipe Image
+                        Recipe Image
                         <input value={recipeImage} onChange={(event) => { setRecipeImage(event.target.value) }} id="setRecipeImage" type="url" />
                     </label>
 
                     <label>
-                        set Servings
+                        Servings
                         <input value={recipeServings} onChange={(event) => { setRecipeServings(event.target.value) }} id="setRecipeServings" type="number" />
                     </label>
                 </div>
 
-                <button type="submit">Add Recipe</button>
+                <button className= 'addNewButton' type="submit">Add Recipe</button>
 
 
             </form>
