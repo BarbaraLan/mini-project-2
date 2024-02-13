@@ -1,12 +1,8 @@
-import { Link } from "react-router-dom";
-
+import './NavBar.css'
 function NavBar () {
     return (
         <nav id="navbar">
-        <h2> REACT RECIPES FOR DUMMIES</h2>
-        <img id="logo" src="./src/assets/cleaver.jpg" alt="" />
-        <Link to = "/"> Home </Link>
-        <Link to= '/about'>About</Link>
+        <h1> REACT RECIPES FOR DUMMIES</h1>
         </nav>
     )
 }

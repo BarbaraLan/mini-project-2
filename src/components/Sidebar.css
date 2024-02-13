@@ -1,29 +1,40 @@
 #sideBar {
-    z-index: 999; /* Adjust the z-index value to be lower than the navbar */
     box-sizing: border-box;
-    height: 447px;
+    height: 100%;
     width: 130px;
-    background-color: rgb(40, 11, 40);
-    text-align: end;
-    
+    text-align:end;
     display: flex;
-    flex-direction: row-reverse;
     position: fixed;
+    flex-direction: column;
+    background-image: url('src/assets/background.jpg');
     top: 0;
-    left: 0;
+    right: 0;
     align-items: center; 
-    
-    /* Rotate the text by 45 degrees */
-
+    background-size: cover;
 }
 
-h5 {
+.logo{
+width: 130px;
+height: auto;
+top: 0px;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em rgb(74, 14, 14));
+  }
+
+h5{
     padding: 40px 40px;
-   
     box-sizing: border-box;
     color: rgb(231, 229, 164);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    
- 
+    font-size: 40px; 
+    text-decoration: none;
+}
+h5 a{
+    color: rgb(74, 14, 14);
+}
+
+.h5,h4:hover {
+    filter: drop-shadow(0 0 2em rgb(74, 14, 14));
 }

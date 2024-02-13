@@ -1,75 +1,11 @@
-
 * {
   padding: 0px;
   margin: 0px;
-  box-sizing: border-box;
-  
-
 }
 
 .image1 {
   width: 100%;
-}
-
-
-
-#navbar {
-  /* Ensure the navbar is displayed on top */
-  z-index: 1000; /* Adjust the z-index value as needed */
- height: 40px;
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- padding: 0px 20px;
- position: fixed;
- top: 0%;
- width: 100%;
- background-color: rgb(40, 11, 40);
- color: rgb(231, 229, 164);
- }
-
-
-.footer {
-  padding: 0px 20px;
-  width: 100%;
-  background-color:rgb(161, 159, 162);
-  color: white;
-  display: flex;
-  flex-direction: row-reverse;
-  position: static;
-  bottom: 0;
-  left: 0;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+  background-size: cover;
 }
 
 .card {

@@ -1,0 +1,28 @@
+.addArea label{
+    display: flex;
+    color: rgb(74, 14, 14);;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+    gap: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.addArea span{
+    display: flex;
+    color: rgb(74, 14, 14);;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    gap: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.addNewButton{
+    display: flex;
+    color: rgb(74, 14, 14);;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
