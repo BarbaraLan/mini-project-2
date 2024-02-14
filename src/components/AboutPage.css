@@ -1,0 +1,26 @@
+h2 {
+    font-size: 30px;
+    text-wrap: wrap;
+    text-align: left;
+    color: rgb(74, 14, 14);
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 40px;
+
+}
+
+.abaoutPage {
+    width: 70%;
+    font-size: 20px;
+    text-wrap: wrap;
+    text-align: left;
+    color: rgb(74, 14, 14);
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 40px;
+}
+
+.creators {
+    margin-top: 40px;
+    font-size: 15px;
+}
