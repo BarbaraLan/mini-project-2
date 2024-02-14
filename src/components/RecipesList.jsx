@@ -9,7 +9,7 @@ function RecipesList(props) {
         const newRecipesArray = props.recipes.filter((recipe) => {
             return recipeId !== recipe.id
         });
-        setRecipes(newRecipesArray);
+        props.setRecipes(newRecipesArray);
 
     }
 

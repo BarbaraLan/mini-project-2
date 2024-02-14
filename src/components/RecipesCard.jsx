@@ -5,6 +5,7 @@ function RecipesCard(props) {
 
     return (
         <li className="recipe-card">
+            <Link to={`/edit/${recipe.id}`}> edit </Link>
               <h4><Link to={`/itemsDetailsPage/${recipe.id}`}>{recipe.name}</Link></h4>
             <button className="btn" onClick={() => props.deleteCard(recipe.id) } > X </button> 
         </li>
