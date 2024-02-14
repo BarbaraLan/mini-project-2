@@ -20,10 +20,12 @@
 
     border-radius: 70px; /* Add rounded corners */
     filter: brightness(120%); /* Increase brightness for a vibrant appearance */
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
 }
 
 .logo:hover {
     filter: drop-shadow(0 0 10px rgba(74, 14, 14, 0.8)); /* Add a dark drop shadow on hover */
+    transform: translate(-25px, 25px); /* Move the logo down and to the left on hover */
 }
 
 
