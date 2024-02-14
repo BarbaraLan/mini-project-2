@@ -2,19 +2,20 @@ import '../components/AboutPage.css'
 
 function AboutPage() {
     return (
-        <>
+        <div className="section-container">
             <h2>About Us</h2>
             <div className="abaoutPage">
-                <p> We decided to create an ibook for recipes;
-                    Here feel free to follow the actual recipes provedid,
-                    create ypur own recipes or edit them.
-                    You can also delete the recipes as you wish. </p>
+                <p> We decided to create an ibook for fishy recipes;
+                    Feel free to follow the  recipes provided,
+                    create your own recipes or edit them.
+                    You can  delete the recipes as you wish. </p><br></br>
                 <div className='creators'>
-                    <p> Member n 1 : Gavin Alexander </p>
-                    <p> Member n 2 : Barbara Lancuba </p>
+                    <p> Member 1 : Gavin Alexander </p>
+                    <p> Member 2 : Barbara Lancuba </p>
+                    <br></br>
                 </div>
             </div>
-        </>
+            </div>
     )
 }
 export default AboutPage

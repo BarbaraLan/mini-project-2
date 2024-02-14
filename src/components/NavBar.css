@@ -6,11 +6,11 @@
 
 h1 {
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
     text-wrap: wrap;
-    text-align: center;
+    text-align: left;
     color: rgb(74, 14, 14);
     padding: 10px;
     background-color:  rgb(238, 230, 196);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Dancing Script', cursive;
 }

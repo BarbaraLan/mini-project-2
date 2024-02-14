@@ -5,7 +5,7 @@ function Sidebar() {
     return (
 
         <div id="sideBar">
-            <img className="logo" src="./src/assets/cleaver.jpg" alt="" />
+            <img className="logo" src="src\assets\logo.jpg" alt="" />
             <h5>
                 <Link to="/"> Home </Link>
                 <Link to='/about'>About</Link>

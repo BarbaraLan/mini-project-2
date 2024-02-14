@@ -13,15 +13,19 @@
     background-size: cover;
 }
 
-.logo{
-width: 130px;
-height: auto;
-top: 0px;
+.logo {
+    width: 150px;
+    height: auto;
+    top: 0;
+
+    border-radius: 70px; /* Add rounded corners */
+    filter: brightness(120%); /* Increase brightness for a vibrant appearance */
 }
 
 .logo:hover {
-    filter: drop-shadow(0 0 2em rgb(74, 14, 14));
-  }
+    filter: drop-shadow(0 0 10px rgba(74, 14, 14, 0.8)); /* Add a dark drop shadow on hover */
+}
+
 
 h5{
     padding: 40px 40px;
