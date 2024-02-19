@@ -3,11 +3,11 @@
 .recipes-container {
     display: flex;
     flex-wrap: wrap;
-    width: 900px; /* Adjusted to fill available space */
-    max-width: 1200px; /* Added max-width for better responsiveness */
+    width: 477px; /* Adjusted to fill available space */
+    max-width: 477px; /* Added max-width for better responsiveness */
     height: 300px; /* Adjusted for variable content */
     list-style: none;
-    padding: 20px; /* Adjusted padding for better appearance */
+    padding: 0px; /* Adjusted padding for better appearance */
     margin: 0 auto; /* Center the container horizontally */
     border: 1px solid rgb(74, 14, 14);
     overflow-y: auto;
@@ -18,19 +18,18 @@
     width: 180px;
     height: auto; /* Adjusted for variable content */
     padding: 20px; /* Reduced padding for better appearance */
-    border-radius: 10px; /* Reduced border radius */
+    border-radius: 10px; /* Reduced border ra dius */
     background-color: rgb(249, 243, 216);
     color: rgb(74, 14, 14);
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-right: 10px;
+     font-size: 16px; /* Adjust font size for readability */
+    font-weight: 200;  margin-right: 10px;
     margin-bottom: 10px;
 }
 
 h3 {
     color: rgb(74, 14, 14);
     padding: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     text-align: center;
 }

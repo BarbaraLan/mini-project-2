@@ -1,0 +1,47 @@
+.editPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.editPage ul {
+    list-style: none;
+    padding: 0;
+}
+
+.editPage li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.editPage label {
+    width: 120px; /* Adjust width of labels as needed */
+}
+
+.editPage input[type="text"],
+.editPage input[type="number"],
+.editPage input[type="url"] {
+    flex: 1;
+    padding: 8px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.editPage button {
+    width: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #563102;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editPage button:hover {
+    background-color: #880606;
+}

@@ -1,0 +1,35 @@
+
+.body {
+
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-wrap: wrap;
+    text-align: left;
+    color: rgb(74, 14, 14);
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 40px;
+
+}
+
+.creators {
+    margin-top: 20px; /* Reduce margin for a compact look */
+    font-size: 15px;
+    
+}
+
+
+.creators {
+    margin-top: 20px; /* Reduce margin for a compact look */
+    font-size: 15px;
+}
+
+.section-container {
+    width: 500px;
+    
+}

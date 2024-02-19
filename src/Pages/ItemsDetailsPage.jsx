@@ -1,5 +1,6 @@
-import recipesJson from '../recipes.json'
+import recipesJson from '../recipes.json';
 import { useParams } from "react-router-dom";
+import '../components/ItemDetailsPage.css';
 
 function ItemsDetailsPage (props) {
 

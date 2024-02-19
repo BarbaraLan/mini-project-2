@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom"
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import '../components/EditPage.css'
 
 
 function EditPage(props) {
@@ -41,30 +42,44 @@ function EditPage(props) {
     return (
         <>
           
-            <form className='editPage' onSubmit={handleSubmit}>
-                <label >
-                    Name:
-                    <input value={name} onChange={(event) => setName(event.target.value)} type="text" />
-                </label>
-                <label >
-                    Calories:
-                    <input value={calories} onChange={(event) => setCalories(event.target.value)} type="text" />
-                </label>
-                <label >
-                    Reference Image:
-                    <input value={image} onChange={(event) => setImage(event.target.value)} type="url" />
-                </label>
-                <label >
-                    Servings:
-                    <input value={servings} onChange={(event) => setServings(event.target.value)} type="number" />
-                </label>
-                <label >
-                calories Count:
-                    <input value={caloriesCount} onChange={(event) => setCaloriesCount(event.target.value)} type="number" />
-                </label>
+          <form className='editPage' onSubmit={handleSubmit}>
+    <ul>
+        <li>
+            <label>
+                <br></br>
+                Name:        
+                <input value={name} onChange={(event) => setName(event.target.value)} type="text" />
+            </label>
+        </li>
+        <li>
+            <label>
+                Calories:
+                <input value={calories} onChange={(event) => setCalories(event.target.value)} type="text" />
+            </label>
+        </li>
+        <li>
+            <label>
+                Reference Image:
+                <input value={image} onChange={(event) => setImage(event.target.value)} type="url" />
+            </label>
+        </li>
+        <li>
+            <label>
+                Servings:
+                <input value={servings} onChange={(event) => setServings(event.target.value)} type="number" />
+            </label>
+        </li>
+        <li>
+            <label>
+                Calories Count:
+                <input value={caloriesCount} onChange={(event) => setCaloriesCount(event.target.value)} type="number" />
+            </label>
+        </li>
+    </ul>
 
-                <button type="submit">Edit recipe</button>
-            </form>
+    <button type="submit">Edit recipe</button>
+</form>
+
         </>
 
     )

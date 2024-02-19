@@ -1,0 +1,17 @@
+.recipe-card-detail {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Adjust the number of columns as needed */
+  gap: 10px; /* Spacing between columns */
+  padding: 20px; /* Increased padding for a more pronounced box effect */
+  margin-bottom: 20px; /* Adds space between each box */
+  border: 2px solid #ccc; /* Solid border around the box */
+  border-radius: 10px; /* Rounded corners for the box */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: #fff; /* Background color to ensure readability */
+ display: flex;
+ flex-direction: column;
+}
+
+.recipe-card-detail p {
+  margin: 0; /* Remove default margin from p tags for a cleaner look */
+}

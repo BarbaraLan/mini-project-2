@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    align-items: center;
+    color: rgb(74, 14, 14);
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px; /* Adjust font size for readability */
+    font-weight: 300; /* Adjust font weight for thinner text */
+    background-color: white;
+    text-decoration: none;
+    width: 100%;
+}

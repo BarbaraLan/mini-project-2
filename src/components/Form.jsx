@@ -19,7 +19,7 @@ function Form(props) {
 
     };
     return (
-        <>
+        <div className="form-container">
             <form className= 'addArea' onSubmit={handleSubmit}>
                 <span>Add a Recipe</span>
                 <div>
@@ -49,7 +49,7 @@ function Form(props) {
 
 
             </form>
-        </>
+            </div>
     )
 
 }

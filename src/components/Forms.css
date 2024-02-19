@@ -1,28 +1,37 @@
-.addArea label{
+.addArea,
+.addArea label,
+.addArea span,
+.addNewButton {
+    border: 1px solid rgb(74, 14, 14); /* Add border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    padding: 10px; /* Add padding for spacing */
     display: flex;
-    color: rgb(74, 14, 14);;
-    font-size: 13px;
-    font-weight: bold;
-    padding: 5px;
-    gap: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
 }
 
-.addArea span{
+.addArea {
     display: flex;
-    color: rgb(74, 14, 14);;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px;
+    color: rgb(74, 14, 14);
     gap: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.addNewButton{
+.addArea span {
     display: flex;
-    color: rgb(74, 14, 14);;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 5px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(74, 14, 14);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 10px;
+}
+
+.addNewButton {
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 6, 6);
+}
+.form-container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    
 }
